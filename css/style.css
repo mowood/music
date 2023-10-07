@@ -9,12 +9,13 @@
 body {
     font-family: 'Nunito', sans-serif;
     background-color: #f3f3f3;
+    color:#4e4e4e;
 }
 
 .container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
+    justify-content:center;
     flex-direction: column;
     flex-wrap: wrap;
     padding-top: 25px;
