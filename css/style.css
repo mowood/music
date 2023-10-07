@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500&display=swap');
+
 *,
 *::before,
 *::after {
@@ -5,15 +7,18 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Nunito', sans-serif;
     background-color: #f3f3f3;
 }
 
 .container {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 
@@ -26,10 +31,15 @@ body {
     width: 250px;
     height: 250px;
     background-color: #fff;
-    border: 1px solid #dbdbdb;
+    border: 2px solid #dbdbdb;
     border-radius: 5px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
     color: #4e4e4e;
+    /* word-wrap: break-word; */
+}
+
+.block_01 {
+    background-image: url(/music/post/001/001.jpg);
 }
 
 .block-link {
@@ -44,13 +54,13 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-
 }
 
 .block_header {
     margin: 0;
     padding: 0;
     font-size: 5em;
+    font-weight: 500;
     text-transform: uppercase;
 }
 
@@ -59,12 +69,14 @@ body {
     margin-bottom: 15px;
     padding: 0;
     font-size: 1.2em;
+    font-weight: 500;
 }
 
 .block_date {
     margin: 0;
     padding: 0;
-    font-size: 1.6em;
+    font-size: 1.4em;
+    font-weight: 300;
 }
 
 .player {
@@ -74,23 +86,26 @@ body {
 }
 
 .track_name {
-    font-size: 0.8em;
     margin-bottom: 10px;
+    font-size: 0.9em;
+    font-weight: 500;
 }
 
 .heart {
     color: #FE7697;
 }
 
-.btn_back {
+.btn_nav {
     padding: 10px;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: lowercase;
+    font-size: 30px;
+    font-weight: 500;
     color:#4e4e4e;
     border: 2px solid #dbdbdb;
     border-radius: 5px;
 }
 
-.btn_back:hover {
+.btn_nav:hover {
     background-color: #dbdbdb;
 }
